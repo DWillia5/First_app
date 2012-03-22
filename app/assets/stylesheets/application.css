@@ -11,11 +11,7 @@
  *= require_self
  *= require_tree .
 */
-/*COLOURS:*/
-/*#1047AA*/
-/*#4577D4
-#6B90D4
-#052A6E*/
+
 
 
 body{ 
@@ -36,8 +32,7 @@ header a{
 }
 
 header a:hover{
-  background-color: blue;
-  color: white;
+  background-color: #1047AA;
 }
 
 
