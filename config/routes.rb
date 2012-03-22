@@ -1,4 +1,12 @@
 Firstapp::Application.routes.draw do
+  get "pages/core"
+
+  get "pages/test"
+
+  get "pages/ip"
+
+  get "pages/lab"
+
   get "home/index"
 
   # The priority is based upon order of creation:

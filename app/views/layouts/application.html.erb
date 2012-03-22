@@ -6,9 +6,24 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<body>
 
-<%= yield %>
+  <header>
+    <h1><%=link_to "My time at o2", root_path%></h1>
+  </header>
+
+<body>
+    <div class="nav">
+      <ul>
+        <li><a><%= link_to "Core Networks", pages_core_path %></a></li>
+        <li><a><%= link_to "Test & Online", pages_test_path %></a></li>
+        <li><a><%= link_to "IP Networks", pages_ip_path %></a></li>
+        <li><a><%= link_to "The Lab", pages_lab_path %></a></li>
+      </ul>
+    </div>
+
+  <div class="page">
+      <%= yield %>
+  </div>
 
 </body>
 </html>
